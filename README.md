@@ -1,40 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🧩 Modular Portal Platform
 
-## Getting Started
+A fully modular, fullstack portal platform built with **Next.js (Page Router)**, **React 19**, **TypeScript**, **Redux**, **Supabase**, and **Shadcn/UI**. Designed for agencies and **their clients(multi-tenant staff)** to configure, price, and manage feature-rich component modules — all in real-time.
 
-First, run the development server:
+> 🧱 Powered by a **Modulith** architecture — internally modular, externally unified.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Architecture Highlights
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **Modulithic Design**  
+  Clean separation of domains using internal modules. Each feature (e.g., messaging, analytics, AI assistant) lives in its own encapsulated unit.
+- **Agency-Centric System**  
+  Agencies can create and manage portals for clients, with customizable module kits per industry.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **Real-Time Sync**  
+  Built-in live subscriptions using Supabase for collaborative, multi-user environments.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- **Smart Integrations**  
+  Modules can include AI-enhanced subfeatures (e.g., smart suggestions, summarization, GPT tools).
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Layer        | Tech                                |
+| ------------ | ----------------------------------- |
+| Frontend     | Next.js, React 19, Shadcn/UI, Redux |
+| Backend      | Supabase (Auth, DB, Realtime)       |
+| Styling      | Tailwind CSS                        |
+| State Mgmt   | Redux Toolkit + Context             |
+| Animation    | Framer Motion                       |
+| Architecture | Modulith (modular monolith)         |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
